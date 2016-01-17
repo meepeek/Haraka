@@ -1,0 +1,21 @@
+Dear fellow dumbs,
+
+This tutorial is written from my newbie experience, setting up haraka. I hope this could save your valuable time.
+
+What we will do
+1. Install haraka
+2. Setup initial configuration and test
+3. Config password authentication for outbound (sending email to another domain) and test
+4. Config TLS encryption (so haraka will accept the email sent from email client e.g. outlook, thunderbird)
+
+What you need before getting start
+1. You can use unix-like commandline. (e.g. OSX terminal)
+2. You know what 'sudo' command is.
+3. You have NodeJS installed.
+4. You know what dependencies are and know how to fix them.
+
+Install Haraka
+
+sudo npm -g install Haraka
+
+this will setup haraka in your OS. As the result, 
